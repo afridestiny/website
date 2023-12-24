@@ -1,13 +1,18 @@
 .enquiry {
     margin-top: 6rem;
-    padding-top: 4rem;
-    background-color: --brand-secondary;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
     border: white 10px solid;
+   
     
 }
 
 .enquiry form {
     width: 100%;
+    padding: 4rem;
+    background-color: #f4f7fc;
+    box-shadow: 0px 0px 10px 0px rgba(129, 125, 125, 0.932);
+    border-radius: 5px;
 }
 
 .enquiry form h5 {
