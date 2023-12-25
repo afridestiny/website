@@ -264,7 +264,6 @@ nav .navbar .nav-links .com_btn .inner-btn a {
 
 .banner {
   margin-top: 8rem;
- 
 }
 
 .banner .box-container {
@@ -278,7 +277,7 @@ nav .navbar .nav-links .com_btn .inner-btn a {
 
 .banner .box-container .content {
   flex: 1 1 60rem;
-  padding: 8rem 0;	
+  padding: 8rem 0;
 }
 
 .banner .box-container .content .banner-btn {
@@ -288,7 +287,7 @@ nav .navbar .nav-links .com_btn .inner-btn a {
   max-width: 100%;
   height: auto;
   border-radius: 5px;
-  border: 3px solid #efdc09;
+  object-fit: cover;
 }
 
 .banner .box-container .img {
@@ -332,17 +331,14 @@ nav .navbar .nav-links .com_btn .inner-btn a {
   overflow: hidden;
   display: flex;
   justify-content: space-between;
-  /* gap: 1.5rem; */
   align-items: center;
   flex-wrap: wrap;
   border-radius: 0.5rem;
   background: var(--white-primary);
-  /* margin: 2rem; */
+ 
 }
 
-/* .search .box-container .box .search-form form .country {
-    background-color: #0F3165;
-} */
+
 
 .search .box-container .box .search-form form .line {
   border: 0.8px solid #887979;
@@ -472,18 +468,18 @@ nav .navbar .nav-links .com_btn .inner-btn a {
   color: var(--white-primary);
 }
 
-.Stories .box-container {
+.Stories .box-container  {
   margin-top: 3rem;
   margin-bottom: 3rem;
   padding-bottom: 2rem;
-  /* background: url(../img/Vector_Up.png) no-repeat right center; */
+  background: url(../img/Vector_Up.png) no-repeat right center;
+  
 }
 
 .Stories .box-container .box {
   text-align: center;
   display: block;
   background: url(../img/Quoted\ Icon.png) no-repeat center top;
-
 }
 .Stories .box-container .box h5 {
   font-size: 32px;
@@ -492,8 +488,11 @@ nav .navbar .nav-links .com_btn .inner-btn a {
   line-height: 50px;
   color: var(--brand-secondary);
 }
-.student-photo{
-    border-radius: 100%;
+.student-photo {
+  border-radius: 100%;
+  image-rendering: optimizeQuality -moz-crisp-edges -webkit-optimize-contrast
+  optimize-contrast crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;
 }
 
 .Stories .box-container .box p {
@@ -502,38 +501,48 @@ nav .navbar .nav-links .com_btn .inner-btn a {
   font-size: 18px;
   font-weight: 500;
   line-height: 30px;
-  text-align: left;
-  width: 84%;
-  padding-left: 4rem;
+  text-align: right;
+  width: 74%;
+  padding-left: 8rem;
+  padding-bottom: 3rem;
 }
 
 .Stories .box-container .box .img {
   margin-top: 7rem;
   position: relative;
+ 
+  
 }
 
 .Stories .box-container .box .img .content {
-  background: var(--brand-secondary-yellish);
+  background:linear-gradient(90deg, rgba(251, 255, 5, 0.966) 0%, rgba(74, 4, 239, 0.911) 100%);
   display: flex;
   flex-wrap: wrap;
-align-items: center;
+  align-items: center;
   justify-content: center;
-  border-radius:100%;
+  border-radius: 100%;
   width: 200px;
   height: 150px;
   position: absolute;
   top: -20%;
-  left: 50%; 
+  left: 50%;
+  box-shadow: 2px 2px 20px 2px #004bad6b ;
 }
 
 .Stories .box-container .box .img .content p {
-  color: black;
+  color: var(--white-primary);
   font-size: 20px;
   line-height: 20px;
   text-align: center;
   padding: 1rem;
 }
-
+.Stories .box-container .box .img img{
+  width: 90%;
+  image-rendering: optimizeQuality -moz-crisp-edges -webkit-optimize-contrast
+  optimize-contrast crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;
+  
+}
 .Stories .box-container .box .img .content p span {
   font-size: 12px;
 }
@@ -872,7 +881,6 @@ align-items: center;
 .footer .box-container {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   text-align: center;
   gap: 1rem;
 }

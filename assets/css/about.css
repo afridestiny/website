@@ -35,7 +35,7 @@
 
 .about_counter {
     background: var(--brand-secondary);
-    /* padding: 3rem 9%; */
+    
 }
 .about_counter  h2{
     color: var(--white-primary);
@@ -44,8 +44,7 @@
     padding: 3rem 0;
 
 }
-.about_counter .counter {
-    /* padding: 3rem 9%; */
+.about_counter .counter {    
     display: flex;
     gap: 2rem;
     align-items: center;

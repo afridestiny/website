@@ -36,12 +36,11 @@
 
   nav .navbar {
     padding: 1rem 4%;
-    
   }
- nav .logo{
-  width: 60px;
-  height: 60px;
- }
+  nav .logo {
+    width: 60px;
+    height: 60px;
+  }
   nav .navbar {
     padding: 1rem 4%;
   }
@@ -67,11 +66,6 @@
   .search .box-container .box .search-form {
     width: 100%;
   }
-
-  /* .Counseling .box-container .box {
-    justify-content: center;
-    text-align: center;
-  } */
 
   .contact .box-container {
     gap: 1rem;
@@ -284,11 +278,11 @@
     flex-direction: column-reverse;
     overflow: visible;
   }
-.heading svg{
-  display: none;
-}
+  .heading svg {
+    display: none;
+  }
   .search .box-container .box .search-form form {
-    gap: .8rem;
+    gap: 0.8rem;
   }
 
   .search .box-container .box .search-form form select {
@@ -350,33 +344,93 @@
     margin: 1rem 2rem;
     padding: 1rem;
   }
-  .university_banner{
+  .university_banner {
     margin-top: 3.5rem !important;
   }
-  .university_banner .box-container{
-    width:unset;  
+  .university_banner .box-container {
+    width: unset;
     height: 500px !important;
-      margin-top: 30px !important;
-   
+    margin-top: 30px !important;
   }
-  
+
   .university_banner .box-container .content h1 {
     display: none !important;
   }
   .marwadi {
     background: url(../img/marwadi\ university_mobile.jpeg) !important;
     background-repeat: no-repeat !important;
-    background-size: contain !important; 
+    background-size: contain !important;
     background-position: center;
-    object-fit: cover; 
-    width: 100%; 
-    height: 100%; 
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
     image-rendering: -webkit-optimize-contrast;
   }
-  .admission-btn a {   
+  .admission-btn a {
     font-size: 12px !important;
-   
+  }
+  .hero-image {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: fill;
+  }
+
+  .Stories .box-container .box p {
+    color: var(--black);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    width: 95%;
+    margin: 0;
+  }
+  .search .box-container .box .search-form form {
+    width: 100% !important;
+    margin: 0 !important;
+    overflow: hidden;
+    display: flex !important;
+    justify-content: space-between;
+    flex-wrap: nowrap !important;
+  }
+  .footer .box-container {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    height: 500px !important;
+    display: block !important;
+  }
+  .about_banner {
+    position: relative;
+    padding: 0.5rem !important;
+  }
+  .about_counter  h2{   
+    font-size: 2rem !important;
+    padding: 0 !important;
+    margin-bottom: 1rem ;
+
+}.about_feature {
+  width: 100%;
+  height: 100%;
+
+}
+.about_feature .box-container .img-box .back-box .img {
+  background:rgb(205, 198, 198) !important;
+  border: 1px solid var(--brand-primary);
   
+ 
+}
+.who_are .box-container .img {
+  width: 100% !important;
+  padding-bottom: 18rem !important;
+}
+  .about_counter .counter {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    grid-gap: 1rem !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
   }
 }
 
@@ -411,7 +465,7 @@
   }
 
   .search .box-container .box .search-form form .search .search-btn {
-    padding: 1rem .5rem;
+    padding: 1rem 0.5rem;
   }
 
   .contact .box-container .customer-support {
@@ -457,7 +511,6 @@
   .abroad_banner .box-container .img {
     flex: 1 1 40rem;
   }
-
 }
 
 /* lg */
@@ -511,7 +564,8 @@
 }
 
 /* sm */
-@media (max-width: 640px) {}
+@media (max-width: 640px) {
+}
 
 /* xs */
 @media (max-width: 475px) {
@@ -532,7 +586,8 @@
 /* Tests page responsive  */
 
 /* 2xl */
-@media (max-width: 1536px) {}
+@media (max-width: 1536px) {
+}
 
 /* xl */
 @media (max-width: 1280px) {
@@ -565,7 +620,8 @@
 }
 
 /* md */
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+}
 
 /* sm */
 @media (max-width: 640px) {
@@ -604,7 +660,8 @@
 /* about us responsive  */
 
 /* 2xl */
-@media (max-width: 1536px) {}
+@media (max-width: 1536px) {
+}
 
 /* xl */
 @media (max-width: 1280px) {
@@ -649,10 +706,12 @@
 }
 
 /* md */
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+}
 
 /* sm */
-@media (max-width: 640px) {}
+@media (max-width: 640px) {
+}
 
 /* xs */
 @media (max-width: 475px) {
@@ -662,23 +721,28 @@
   }
 }
 
-
 /* Enquiry page responsive */
 
 /* 2xl */
-@media (max-width: 1536px) {}
+@media (max-width: 1536px) {
+}
 
 /* xl */
-@media (max-width: 1280px) {}
+@media (max-width: 1280px) {
+}
 
 /* lg */
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+}
 
 /* md */
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+}
 
 /* sm */
-@media (max-width: 640px) {}
+@media (max-width: 640px) {
+}
 
 /* xs */
-@media (max-width: 475px) {}
+@media (max-width: 475px) {
+}
