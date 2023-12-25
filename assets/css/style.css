@@ -536,8 +536,7 @@ nav .navbar .nav-links .com_btn .inner-btn a {
   text-align: center;
   padding: 1rem;
 }
-.Stories .box-container .box .img img{
-  width: 90%;
+.Stories .box-container .box .img img{  
   image-rendering: optimizeQuality -moz-crisp-edges -webkit-optimize-contrast
   optimize-contrast crisp-edges;
   -ms-interpolation-mode: nearest-neighbor;

@@ -432,6 +432,15 @@
     width: 100% !important;
     height: 100% !important;
   }
+  .parul{
+    background: url(../img/parul_university.webp) !important;
+    background-repeat: no-repeat !important;
+    background-size:cover !important;
+    background-position: center;
+    object-fit: cover;
+    image-rendering: -webkit-optimize-contrast;
+
+  }
 }
 
 /* xs */

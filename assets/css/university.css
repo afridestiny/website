@@ -25,6 +25,21 @@
   background-size: cover;
   background-position: center;
 }
+.swami {
+  width: 100%;
+  background: url(../img/swami_university.png) no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.chandigarh{
+  width: 100%;
+  background: url(../img/chandigarh_university.png) no-repeat;
+  background-size: 100% 100%;
+  padding-top: 10rem;
+  background-position: left;
+
+}
 .admission-btn {
   display: flex;
   padding: 1rem;
