@@ -350,15 +350,33 @@
     margin: 1rem 2rem;
     padding: 1rem;
   }
+  .university_banner{
+    margin-top: 3.5rem !important;
+  }
+  .university_banner .box-container{
+    width:unset;  
+    height: 500px !important;
+      margin-top: 30px !important;
+   
+  }
+  
   .university_banner .box-container .content h1 {
     display: none !important;
   }
-  .marwadi{  
-   background: url(../img/marwadi\ university_mobile.jpeg) no-repeat !important;
-   background-size:100% 100% !important;
-   image-resolution: 300dpi;
-   image-rendering: -webkit-optimize-contrast;
-   background-position: center;
+  .marwadi {
+    background: url(../img/marwadi\ university_mobile.jpeg) !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important; 
+    background-position: center;
+    object-fit: cover; 
+    width: 100%; 
+    height: 100%; 
+    image-rendering: -webkit-optimize-contrast;
+  }
+  .admission-btn a {   
+    font-size: 12px !important;
+   
+  
   }
 }
 
