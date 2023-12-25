@@ -13,12 +13,20 @@
   margin-left: 0;
   margin-right: 0;
   padding: 0;
-  background: url(../img/Australia.webp) no-repeat;
+}
+.rk {
+  background: url(../img/Rk\ university.webp) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.parul {
+  width: 100%;
+  background: url(../img/parul_university.webp) no-repeat;
   background-size: cover;
   background-position: center;
 }
 .admission-btn {
-display: flex;
+  display: flex;
   padding: 1rem;
   width: max-content;
   margin: 1rem 0;
@@ -40,36 +48,14 @@ display: flex;
 .admission-btn a i {
   padding-right: 0.5rem;
 }
-.marwadi .box-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-height: 100vh !important;
-  max-width: 100% !important;
-  height: 100vh;
-  width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  padding: 0;
-  background: url(../img/marwadi\ university.jpeg) no-repeat;
-  background-size: cover;
+.marwadi {
+   min-width: 100%;
+    min-height: 100%;
+   padding-top: 8rem;
+   background: url(../img/marwadi\ university.jpeg) no-repeat;
+  background-size: fill;
   background-position: center;
-}
 
-.canada .box-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-height: 100vh !important;
-  max-width: 100% !important;
-  height: 100vh;
-  width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  padding: 0;
-  background: url(../img/canada1.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .university_banner .box-container .content h1 {
@@ -107,7 +93,7 @@ display: flex;
 
 .description .box-container .choose_university .box .icon i {
   color: var(--white-primary);
-   font-size: 22px;
+  font-size: 22px;
   text-align: center;
   padding: 2rem;
 }
@@ -118,23 +104,22 @@ display: flex;
   padding: 2rem;
 }
 
-.description .box-container .choose_university .box  .content h5 {
+.description .box-container .choose_university .box .content h5 {
   padding: 1rem 1rem 0 1rem;
 }
 
-.description .box-container .choose_university .box .content p{
- padding: 0 1rem 1rem 1rem !important;
-
+.description .box-container .choose_university .box .content p {
+  padding: 0 1rem 1rem 1rem !important;
 }
 
-.description .box-container .choose_university .box .content ul{
+.description .box-container .choose_university .box .content ul {
   list-style: number;
   margin: auto;
   padding: 1rem;
 }
 
-.description .box-container .choose_university .box .content ul{
- font-size: 16px;
+.description .box-container .choose_university .box .content ul {
+  font-size: 16px;
   margin: auto;
   padding-left: 4rem;
   line-height: 5rem;

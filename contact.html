@@ -265,5 +265,37 @@
     <!-- footer section ends  -->
 
     <script src="assets/js/main.js"></script>
+    <script>
+      (function (w, d, s, u) {
+        w.gbwawc = {
+          url: u,
+          options: {
+            waId: "+91 8155871882",
+            siteName: "Afridestiny",
+            siteTag:
+              "Turn Your Academic Dreams Into Reality.🤗",
+            siteLogo: "https://www.afridestiny.com/assets/img/logo.jpg",
+            widgetPosition: "LEFT",
+            triggerMessage: "Hello,send us a message on whatsapp.",
+            welcomeMessage:
+              "Turn Your Academic Dreams Into Reality With Our Guidance.",
+            brandColor: "#25D366",
+            messageText: "Greetings, are you interested in pursuing admission in India or another country?",
+
+            replyOptions: [
+               " Do you want to study in India?",
+              "Do you want to study in Europe?",
+              "Do you want to study in Canada?",
+             "Do you want to study in other countries?",
+                                ],
+          },
+        };
+        var h = d.getElementsByTagName(s)[0],
+          j = d.createElement(s);
+        j.async = true;
+        j.src = u + "/whatsapp-widget.min.js?_=" + Math.random();
+        h.parentNode.insertBefore(j, h);
+      })(window, document, "script", "https://waw.gallabox.com");
+    </script>
   </body>
 </html>

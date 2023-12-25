@@ -350,6 +350,16 @@
     margin: 1rem 2rem;
     padding: 1rem;
   }
+  .university_banner .box-container .content h1 {
+    display: none !important;
+  }
+  .marwadi{  
+   background: url(../img/marwadi\ university_mobile.jpeg) no-repeat !important;
+   background-size:100% 100% !important;
+   image-resolution: 300dpi;
+   image-rendering: -webkit-optimize-contrast;
+   background-position: center;
+  }
 }
 
 /* xs */
